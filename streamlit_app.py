@@ -4,7 +4,7 @@ from groq import Groq
 
 
 st.set_page_config(page_icon="💀", layout="wide",
-                   page_title="MuffinAI - Created with Models of Grok AI By Darshan Panchasara!")
+                   page_title="SkullAI - Created with Models of Grok AI By Darshan Panchasara!")
 
 
 def icon(emoji: str):
@@ -17,7 +17,7 @@ def icon(emoji: str):
 
 icon("<a style='text-decoration:none' href='https://darshanpanchasara.com/'>☠️</a>")
 
-st.subheader("MuffinAI", divider="red", anchor=False)
+st.subheader("SkullAI", divider="red", anchor=False)
 
 client = Groq(
     api_key=st.secrets["GROQ_API_KEY"],
