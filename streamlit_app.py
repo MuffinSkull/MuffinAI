@@ -15,7 +15,7 @@ def icon(emoji: str):
     )
 
 
-icon("<a style='text-decoration:none' href='https://darshanpanchasara.com/'>☠️</a>")
+icon("<style>.stActionButton{display:none!important;}</style><a style='text-decoration:none' href='https://darshanpanchasara.com/'>☠️</a>")
 
 st.subheader("SkullAI", divider="red", anchor=False)
 
