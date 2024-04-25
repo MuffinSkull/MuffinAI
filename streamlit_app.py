@@ -20,7 +20,7 @@ icon("<a style='text-decoration:none' href='https://darshanpanchasara.com/'>â˜ ï
 st.subheader("MuffinAI", divider="red", anchor=False)
 
 client = Groq(
-    api_key=st.secrets["GROQ_API_KEY"],
+    api_key=st.secrets["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"],
 )
 
 # Initialize chat history and selected model
